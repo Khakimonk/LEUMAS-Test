@@ -1,0 +1,22 @@
+{
+  "name": "luemas-test",
+  "version": "0.0.1",
+  "description": "Test site for luemas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khakimonk/LEUMAS-Test.git"
+  },
+  "author": "James Bint",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khakimonk/LEUMAS-Test/issues"
+  },
+  "homepage": "https://github.com/Khakimonk/LEUMAS-Test#readme",
+  "devDependencies": {
+    "sass": "^0.5.0"
+  }
+}
