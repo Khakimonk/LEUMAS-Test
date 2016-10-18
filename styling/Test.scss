@@ -1,0 +1,81 @@
+*{
+	border: 1px solid red;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 0;
+}
+header {
+	background: #888888 url(../images/site-intro.jpg);
+	text-aling: center;
+	h1 {
+		width: 30%;
+		float: left;
+		margin-top: 0;
+	}
+	ul {
+		li{
+			display: inline;	
+		}
+	}
+}
+
+.main-nav {
+	width: 30%;
+	margin: 0 auto;
+}
+
+.second-nav {
+	float: right;
+	margin-top: 0;
+	margin-right: 25px;
+}
+
+.shop-intro-panel {
+	margin-top: 0;
+	height: 350px;
+	text-align: center;
+	color: #888;
+	width: 35%;
+	margin: 0 auto;
+	padding-top: 150px;
+}
+
+.display-box-quarter {
+	width: 25%;
+	height: 300px;
+	float: left;
+}
+
+.display-box-half {
+	width: 50%;
+	height: 200px;
+	float: left;
+}
+
+.display-box-fifth {
+	width: 20%;
+	height: 150px;
+	float: left;
+}
+
+#link-banner {
+	position: relative;
+	margin-top: 100px;
+	height: 100px;
+	clear: both;
+}
+
+#image1 {
+	background: #777 url(../images/image-1.jpg);
+}
+#image2 {
+	background: #777 url(../images/image-2.jpg);
+}
+
+#image3 {
+	background: #777 url(../images/image-3.jpg);
+}
+
+#image4 {
+	background: #777 url(../images/image-4.jpg);
+}
