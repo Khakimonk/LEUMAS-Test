@@ -1,26 +1,36 @@
 *{
-	border: 1px solid red;
+	//border: 1px solid red;
 	box-sizing: border-box;
 	text-align: center;
 	margin: 0;
 }
 header {
-	background: #888888 url(../images/site-intro.jpg);
+	background: #888888 url(../images/site-intro.jpg) no-repeat;
+	background-size: 100% 100%;
 	text-aling: center;
 	h1 {
-		width: 30%;
+		width: 35%;
+		height: 150px;
 		float: left;
 		margin-top: 0;
+		margin-left: 5px;
+		background: url(../images/home_banner.png) center no-repeat;
 	}
 	ul {
 		li{
-			display: inline;	
+			display: inline;
+			color: #DDD;
+			margin-right: 7px;
+			a {
+			text-decoration: none;
+			color: #DDD;
+			}
 		}
 	}
 }
 
 .main-nav {
-	width: 30%;
+	width: 40%;
 	margin: 0 auto;
 }
 
@@ -34,7 +44,8 @@ header {
 	margin-top: 0;
 	height: 350px;
 	text-align: center;
-	color: #888;
+	color: #EEEEEE;
+	text-shadow: 1px 2px #444;
 	width: 35%;
 	margin: 0 auto;
 	padding-top: 150px;
